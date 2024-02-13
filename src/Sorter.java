@@ -1,5 +1,4 @@
 public class Sorter {
-<<<<<<< HEAD
     public static void insertionSort(int array[]) {
         int n = array.length;  
         for (int j = 1; j < n; j++) {  
@@ -11,9 +10,8 @@ public class Sorter {
             }  
             array[i+1] = key;  
         }
-
+    }
     
-=======
     public static void selectionSort(int[] arr){
         for (int i = 0; i < arr.length - 1; i++)
         {
@@ -27,6 +25,8 @@ public class Sorter {
             arr[index] = arr[i];
             arr[i] = smallerNumber;
         }
->>>>>>> 484dd5f7b5a9fee27af54ab665f4e02df00f0b3d
+    }
+    public static void sort(int[] arr){
+        insertionSort(arr);
     }
 }
